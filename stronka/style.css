@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url("grafika/domek.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+header {
+  min-height: 89px;
+  background-image: url("grafika/tlologo.png");
+  background-repeat: repeat-x;
+}
+
+.logo {
+  min-height: 89px;
+  background-image: url("grafika/top.png");
+  background-repeat: repeat-x;
+}
+
+#menu-top {
+  min-height: 40px;
+  background-image: url("grafika/menu.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.przycisk {
+  min-height: 35px;
+  background-image: url("grafika/przycisk.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+  text-align: center;
+}
+
+.przycisk-text {
+  color: blue;
+  font-family: lato;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+ li a{
+  color: blue;
+  font-family: lato;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+ li a:hover{
+     text-decoration: none;
+    background-color:red;
+    list-style-type: none;
+}
+
+
+footer {
+  padding-top: 300px;
+  text-align: center;
+}
